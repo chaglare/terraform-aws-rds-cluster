@@ -3,7 +3,8 @@
 ## Create a file and add the following
 ```
 module "db" {
-source = "./example10"
+  source  = "chaglare/rds-cluster/aws"
+  version = "ADD THE VERSION HERE"
 region = "us-east-1"
 subnet_ids = [
   "subnet-e91e8ad7",
